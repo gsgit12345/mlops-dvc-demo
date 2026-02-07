@@ -4,7 +4,7 @@
 # pip install dvc
 4. Now we do "dvc init" (creates .dvcignore, .dvc)
 5. Now do "mkdir S3" (creates a new S3 directory)
-6. Now we do "dvc remote add -d myremote S3"
+6. Now we do "dvc remote add -d myremote S3-storage"
 7. Next "dvc add data/" 
    Now it will ask to do: ("git rm -r --cached 'data'" and "git commit -m "stop tracking data"")
    Because initially we were tracking data/ folder from git so now we remove it for DVC to handle.
@@ -18,3 +18,9 @@
 14. Now repeat step 10-12 for v3 of data.
 
 15. install the pandas  python -m pip install pandas
+
+
+
+
+
+Note:-here for dvc ,s3-storage  is repo and dvc will save everything in this repo.it can be any thing like sharedfolder,s3 storage on aws etc
