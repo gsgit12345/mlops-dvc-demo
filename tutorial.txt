@@ -1,0 +1,6 @@
+https://doc.dvc.org/start         --dvc
+https://doc.dvc.org/use-cases/versioning-data-and-models/tutorial    --dvc
+https://www.youtube.com/watch?v=kLKBcPonMYw   ---dvc  -
+
+https://realpython.com/python-data-version-control/?utm_source=chatgpt.com   --dvc
+
