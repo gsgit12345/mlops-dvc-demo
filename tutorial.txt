@@ -4,3 +4,6 @@ https://www.youtube.com/watch?v=kLKBcPonMYw   ---dvc  -
 
 https://realpython.com/python-data-version-control/?utm_source=chatgpt.com   --dvc
 
+
+
+sudo vim /etc/systemd/logind.conf
